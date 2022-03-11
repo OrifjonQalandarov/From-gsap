@@ -1,0 +1,191 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.wrapper {
+  font-family: 'Montserrat', sans-serif;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+
+.wrapper .first_half {
+  width: 50%;
+  height: 100%;
+  background-color: #b3b5ae;
+  position: absolute;
+}
+
+.wrapper .second_half {
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  right: 0px;
+  background-color: #191921;
+}
+
+.wrapper .menu {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  color: white;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 20px;
+  padding: 50px 0 0 50px;
+}
+
+.wrapper .menu h1 {
+  letter-spacing: 1px;
+  margin-right: 70px;
+}
+
+.wrapper .menu .first_icon {
+  font-weight: 600;
+  margin-right: 130px;
+}
+
+.wrapper .menu .first {
+  letter-spacing: 1px;
+  font-weight: 600;
+  margin-right: 50px;
+}
+
+.wrapper .menu .second {
+  letter-spacing: 1px;
+  font-weight: 600;
+  margin-right: 350px;
+}
+
+.wrapper .menu .thirt {
+  letter-spacing: 1px;
+  font-weight: 600;
+  margin-right: 400px;
+}
+
+.wrapper .menu .img_mini {
+  width: 40px;
+  height: 40px;
+  background-size: contain;
+}
+
+.wrapper .menu .img_mini img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.wrapper .first_h2 {
+  position: absolute;
+  top: 350px;
+  overflow: hidden;
+  width: 320px;
+  left: 0;
+}
+
+.wrapper .first_h2 h2 {
+  color: rgba(255, 255, 255, 0);
+  font-size: 90px;
+  text-transform: uppercase;
+  -webkit-text-stroke: 0.1vw white;
+}
+
+.wrapper .img_big {
+  bottom: 0;
+  left: 218px;
+  position: absolute;
+  width: 550px;
+  height: 400px;
+  overflow: hidden;
+}
+
+.wrapper .img_big img {
+  width: 550px;
+  height: 400px;
+}
+
+.wrapper .bottom {
+  position: absolute;
+  width: 400px;
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: black;
+  color: white;
+  opacity: 0.7;
+  bottom: 0px;
+  left: 218px;
+  font-size: 8px;
+  font-weight: 800;
+  letter-spacing: 2px;
+}
+
+.wrapper .bottom .second_icon {
+  width: 10px;
+  height: 10px;
+}
+
+.wrapper .second_h2 {
+  position: absolute;
+  color: white;
+  right: 0;
+  overflow: hidden;
+  width: 540px;
+  top: 350px;
+}
+
+.wrapper .second_h2 h2 {
+  font-size: 90px;
+  text-transform: uppercase;
+}
+
+.wrapper .endth {
+  position: absolute;
+  color: white;
+  right: 350px;
+  top: 450px;
+}
+
+.wrapper .end {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  right: 150px;
+  color: white;
+  bottom: 70px;
+}
+
+.wrapper .end .minus {
+  margin-right: 10px;
+  width: 40px;
+  height: 1px;
+  background-color: rgba(255, 255, 255, 0.705);
+}
+
+.wrapper .end p {
+  text-transform: uppercase;
+  letter-spacing: 7px;
+  margin: 10px 0 10px 0;
+  font-weight: 100;
+  color: rgba(255, 255, 255, 0.705);
+}
+/*# sourceMappingURL=style.css.map */

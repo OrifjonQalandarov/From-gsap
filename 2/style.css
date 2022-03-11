@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    width: 100%;
+    height: 100%;
+}
+
+.box_one{
+    width: 100%;
+    height: 100vh;
+    background-color: aqua;
+}
+
+.box_two{
+    width: 100%;
+    height: 100vh;
+    background-color: green;
+}
+
+.box_three{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(33, 9, 168);
+}
+
+.box_four{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(110, 0, 110);
+}
+
+
+.box_five{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(2, 0, 110);
+}
+
+.bg_square{
+    left: 25%;
+    position: absolute;
+    height: 50%;
+    width: 50%;
+    background-color: rgb(4, 2, 141);
+    opacity: 0.4;
+}
+
+.and{
+    left: 25%;
+    position: absolute;
+    height: 50%;
+    width: 50%;
+    background-color: rgb(4, 2, 141);
+    opacity: 0.4;
+}
+
+.bg_sirqle{
+    opacity: 0.4;
+    border-radius: 500px 500px 0 0;
+    position: absolute;
+    left: 25%;
+    top: 50%;
+    height: 50%;
+    width: 50%;
+    background-color: rgb(4, 2, 141);
+}
+
+h1{
+    opacity: 0;
+    font-size: 80px;
+     width: 50%;
+    position: absolute;
+    top: 30%;
+    left: 19%;
+    color: white;
+}
+
+p{
+    opacity: 1;
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    width: 33%;
+    left: 30%;
+    top: 55%;
+    font-weight: 600;
+}
+
